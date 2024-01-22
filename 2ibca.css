@@ -1,0 +1,111 @@
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos Globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #969696; /* Alterado para #969696 */
+    color: #fff;
+    padding: 10px 20px; /* Aumentei o padding para espaçamento melhor */
+    text-align: left; /* Alinhei à esquerda */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 70px; /* Aumentei o tamanho da logo */
+    height: 70px; /* Aumentei o tamanho da logo */
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 22px; /* Tamanho de fonte ajustado */
+    margin-bottom: 5px; /* Espaçamento inferior ajustado */
+}
+
+/* Alinhamento dos itens do menu à esquerda */
+nav {
+    display: flex;
+    align-items: top; /* Alinhar os itens no topo */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: auto; /* Move o menu para a direita */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 12px;
+    background-color: transparent; /* Removi a cor de fundo */
+    border-radius: 0; /* Removi a borda para tirar a moldura */
+}
+
+/* Estilos adicionais para o submenu */
+/* Estilo para o item "Sobre" e seu dropdown */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Personalização do estilo do dropdown */
+.dropdown-menu {
+    background-color: #969696; /* Cor de fundo do dropdown */
+    border: none; /* Remover borda */
+}
+
+.dropdown-item {
+    color: #fff; /* Cor do texto no dropdown */
+}
+
+.dropdown-item:hover {
+    background-color: #00afef; /* Cor de fundo ao passar o mouse no dropdown */
+}
+
+nav a:hover {
+    background-color: #00afef;
+}
+
+/* Estilos do Conteúdo da Página Aqui */
+
+header {
+    /* Estilos para o cabeçalho (nav) */
+    background-color: #333; /* Cor de fundo para a navegação */
+    color: white; /* Cor do texto para a navegação */
+    padding: 10px; /* Preenchimento interno para a navegação */
+}
+
+/* Adicione um contêiner para o conteúdo abaixo da navegação */
+.content-container {
+    max-width: 500px; /* Largura máxima do conteúdo */
+    margin: 20px auto; /* Centraliza o contêiner */
+}
+
+/* Estilos adicionais para o conteúdo */
+
+.spotify-component{
+    text-align: right;
+}
+
+
+
+
